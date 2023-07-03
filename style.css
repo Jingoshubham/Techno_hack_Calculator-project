@@ -31,18 +31,8 @@ body {
     background-color: black;
 }
 
+.digits input {
 
-#zero,
-#one,
-#thr,
-#fr,
-#fv,
-#two,
-#sx,
-#svn,
-#et,
-#nn,
-#clr {
     padding: 25px;
     margin: 3px;
     width: 70px;
@@ -50,7 +40,6 @@ body {
     background-color: white;
     font-size: medium;
     transition: 0.8s;
-
 }
 
 #calc {
@@ -113,7 +102,6 @@ body {
     color: black;
     font-size: 30px;
     border: 2px solid #03160e;
-
 }
 
 #res {
@@ -122,7 +110,7 @@ body {
     padding: 25px;
     border: 2px solid black;
     font-size: x-large;
-    transition:0.8s;
+    transition: 0.8s;
 }
 
 #res:hover {
@@ -142,77 +130,19 @@ body {
 }
 
 #div:active {
-    background-color:blue;
+    background-color: blue;
 }
 
 #min:active {
     background-color: blue;
 }
 
-#zero:hover {
+.digits input:hover {
+
     background-color: rgb(140, 133, 149);
-}
-#zero:active{
-    background-color: #570fb4F;
-}
-#one:hover {
-    background-color: #570fb4;
-}
-#one:active {
-    background-color: blue;
-}
-#two:hover {
-    background-color: rgb(140, 133, 149);
-}
-#two:active {
-    background-color: blue;
-}
-#thr:hover {
-    background-color: rgb(140, 133, 149);
-}
-#thr:active {
-    background-color: blue;
-}
-#fr:hover{
-    background-color: rgb(140, 133, 149);
-}
-#fe:active {
-    background-color: blue;
 }
 
-#fv:hover {
-    background-color: rgb(140, 133, 149);
-}
-#fv:active {
-    background-color: blue;
-}
-#sx:hover {
-    background-color: rgb(140, 133, 149);
-}
-#sx:active {
-    background-color: blue;
-}
-#svn:hover {
-    background-color: rgb(140, 133, 149);
-}
-#svn:active {
-    background-color: blue;
-}
-#et:hover {
-    background-color: rgb(140, 133, 149);
-}
-#et:active {
-    background-color: blue;
-}
-#nn:hover {
-    background-color: rgb(140, 133, 149);
-}
-#nn:active {
-    background-color: blue;
-}
-#clr:hover {
-    background-color: rgb(140, 133, 149);
-}
-#clr:active {
+.digits input:active {
+
     background-color: blue;
 }
